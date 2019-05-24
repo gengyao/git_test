@@ -9,10 +9,18 @@
 <body>
     <p>
         <h4>使用ssh协议(避免每次提交代码时要输入用户名与密码)</h4>
-        <div>生成新的密钥并将其添加到ssh-agent: </div>
-        <div>密钥生成绩添加到github账户: <br/> 
+        <div>生成新的密钥并将其添加到ssh-agent: <br/> 
             1> 密钥生成: $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  ;当系统提示您“输入要保存密钥的文件”时，按Enter键。这接受默认文件位置。 ; 根据提示信息去存储地址里粘贴密钥。<br/>
             2> 密钥添加到github账户SSH and GPG
+        </div>
+    </p>
+    <p>
+        <h4>smartgit版本回退</h4>
+        <div>start-> push1 -> push2 -> push3 -> Revert3 -> Revert2 -> Revert1 ->Revert"Revert1" -> Revert"Revert2" -> Revert"Revert3"</div>
+        <div>每次操作都应备注到禅道相关任务里</div>
+        <h4>cherry-pick 和 merge</h4>
+        <div>
+
         </div>
     </p>
 </body>
